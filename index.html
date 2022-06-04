@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./aset/Calculator.png" type="image/x-icon">
+    <title>Kalkulator</title>
+  </head>
+  <body>
+    <div class="kontainer">
+      <div>
+        <h2>KALKULATOR</h2>
+      </div>
+      <p class="display"></p>
+      <br />
+      <button id="b-ac" onclick="fulDelete()">AC</button>
+      <button id="b-c" onclick="oneDelete()">C</button>
+      <button id="b-result" onclick="showResult('=')">=</button>
+      <br />
+      <button value="1" onclick="showOut('1')">1</button>
+      <button value="2" onclick="showOut('2')">2</button>
+      <button value="3" onclick="showOut('3')">3</button>
+      <button value=" / " onclick="showOut('/')">/</button>
+      <br />
+      <button value="4" onclick="showOut('4')">4</button>
+      <button value="5" onclick="showOut('5')">5</button>
+      <button value="6" onclick="showOut('6')">6</button>
+      <button value="*" onclick="showOut('*')">x</button>
+      <br />
+      <button value="7" onclick="showOut('7')">7</button>
+      <button value="8" onclick="showOut('8')">8</button>
+      <button value="9" onclick="showOut('9')">9</button>
+      <button value="=" onclick="showOut('+')">+</button>
+      <br />
+      <button value=" % " onclick="showOut('%')">%</button>
+      <button value=" 0 " onclick="showOut('0')">0</button>
+      <button value="." onclick="showOut('.')">.</button>
+      <button value="-" onclick="showOut('-')">-</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to right, #4CB8C4, #3CD3AD);
+}
+.kontainer{
+    border: 1px solid bisque;
+    border-radius: 25px;
+    width: fit-content;
+    size: 100%;
+    background-image: linear-gradient(top, #4CB8C4, #3CD3AD);
+    box-sizing: border-box;
+    margin: auto;
+    top: 50px;
+    padding: 2%;
+    position: relative;
+}
+.kontainer:hover{
+    cursor: pointer;
+    background-color: #4CB8C4;
+    box-shadow: 10px 10px 10px 10px bisque;
+}
+h2{
+    text-align: center;
+    color: bisque;
+    font-family: cursive;
+}
+.display{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    width: 300px;
+    height: 50px;
+    text-align: right;
+    padding: 2%;
+    font-size: 35px;
+    overflow: hidden;
+}
+.display:hover{
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+}
+button{
+    height: 50px;
+    width: 75px;
+    margin-bottom: 1%;
+    font-size: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+#b-ac{
+    width: 100px;
+}
+#b-c{
+    width: 100px;
+}
+#b-result{
+    width: 104px;
+}
